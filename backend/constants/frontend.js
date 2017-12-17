@@ -1,7 +1,7 @@
 const FRONTEND_DEV_URLS = [ 'http://localhost:3000'];
 
 const FRONTEND_PROD_URLS = [
-    'http:/just-giving.com',
+    'http:/localhost:3000',
     'http:/localhost:8080',
 ];
 
