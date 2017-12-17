@@ -19,3 +19,5 @@ const paymentApi = app => {
 
  return app;
  };
+
+ module.exports = paymentApi;
