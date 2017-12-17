@@ -3,7 +3,7 @@ const express = require('express');
 const SERVER_CONFIGS = require('./constants/server');
 
 const configureServer = require('./server');
-const configureServer = require('./routes');
+const configureRoutes= require('./routes');
 
 const app = express();
 

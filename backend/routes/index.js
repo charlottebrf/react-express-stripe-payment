@@ -4,4 +4,4 @@ const configureRoutes = app => {
     paymentApi(app);
 };
 
-module.expors = configureRoutes;
+module.exports = configureRoutes;
