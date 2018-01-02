@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import Checkout from './Checkout';
+import Gateway from './Gateway';
 import './App.css';
+import {Switch, Route} from 'react-router-dom'
+import StripePayment from "./StripePayment";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Humanity X Giving Gateway!</h1>
         </header>
         <p className="App-intro">
-        <Checkout
-            name={'The Road to learn React'}
-            decsription={'Only the Book'}
-            amount={1}
-            />
+            <section className="App-content">
+            <Switch>
+                <Route exact path="/" component={Gateway}/>
+                <Route path="/stripe-payment" component={StripePayment}/>
+            </Switch>
+            </section>
         </p>
       </div>
     );
