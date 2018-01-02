@@ -65,5 +65,4 @@ Jest
 ```
 
 ## Context
-
 ![Imgur](https://i.imgur.com/y0CztE1.jpg)
