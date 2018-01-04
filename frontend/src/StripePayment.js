@@ -5,6 +5,7 @@ import Checkout from "./Checkout";
 class StripePayment extends Component {
 
     render(){
+        console.log(this.props.amount);
         return (
             <Checkout
                 name={'The Road to learn React'}

@@ -3,7 +3,7 @@ HumanityX
 This repository contains a running application using React (with JSX).
 The current app consist of a simple payment gateway, allowing the user to select the amount of money that it wants to donate and select the payment method.
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and includes [React Stripe Elements](https://github.com/stripe/react-stripe-elements).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and includes [react-stripe-checkout](https://www.robinwieruch.de/react-express-stripe-payment/).
 
 ## Team
 - Rachael Mahon
@@ -29,40 +29,29 @@ Disrupt Charitable Giving: We are finding a cheaper and more efficient way to do
 
 - [Getting started](#getting-started)
 - [Usage](#usage)
-- [Running tests](#running-tests)
-- [Test suite](#test-suite)
 - [Context](#context)
 
 
 ## Getting started
 Clone the repository:
 ```
-$ git clone git@github.com:EthicsAndTech/HumanityX.git
+$ git clone git@github.com:charlottebrf/react-express-stripe-payment.git
 ```
 Change directory to the folder:
 ```
-$ cd HumanityX
+$ cd react-express-stripe-payment
 ```
 Install dependencies:
 ```
-$ yarn install
+$ npm install
 ```
 
 ## Usage
 ```
-$ yarn start
+$ cd frontend/
+$ npm start
 ```
 
-## Running tests
-```
-$ yarn test
-```
-
-## Test suite
-An overview of the test suite used:
-```
-Jest
-```
 
 ## Context
 ![Imgur](https://i.imgur.com/y0CztE1.jpg)

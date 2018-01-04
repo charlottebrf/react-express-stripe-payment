@@ -15,7 +15,7 @@ class App extends Component {
             <section className="App-content">
             <Switch>
                 <Route exact path="/" component={Gateway}/>
-                <Route path="/stripe-payment" component={StripePayment}/>
+                <Route path="/stripe-payment/:amount" component={StripePayment}/>
             </Switch>
             </section>
         </p>
